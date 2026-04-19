@@ -1,0 +1,200 @@
+division_template = {
+	name = "Арзулумские Войска"	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+units = {
+	
+	division= {
+		name = "Арзулумские Защитники"
+		location = 11984
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 11984
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 11984
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 11984
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 11984
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 11984
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+		division = {
+		name = "Арзулумские Защитники"
+		location = 11984
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 11984
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 11984
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 9940
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 9940
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 9940
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 10007
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 10007
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 792
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 792
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 792
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 792
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 792
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 792
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 792
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 4111
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 4111
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 4111
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 4111
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Арзулумские Защитники"
+		location = 12473
+		division_template = "Арзулумские Войска"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+} 
