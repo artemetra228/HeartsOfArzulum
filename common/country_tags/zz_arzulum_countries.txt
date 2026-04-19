@@ -1,0 +1,3 @@
+ARZ = "countries/Arzulumia.txt"
+MRK = "countries/Quria.txt"
+KRT = "countries/Kartofia.txt"
