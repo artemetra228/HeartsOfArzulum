@@ -1,0 +1,33 @@
+state=
+{
+	id=164
+	name="STATE_164"
+	manpower = 3428608
+	
+	state_category = small_island
+	
+	history=
+	{
+		owner = ARZ
+		victory_points = {
+			10007 1 
+		}
+		buildings = {
+			infrastructure = 6
+			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 10
+			10007 = {
+				naval_base = 10
+			}
+			7003 = {
+				naval_base = 10
+			}
+		}
+		add_core_of = ARZ
+	}
+	provinces=
+	{
+7003 10007 	}
+}

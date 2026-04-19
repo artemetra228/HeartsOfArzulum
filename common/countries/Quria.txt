@@ -1,0 +1,1 @@
+MRK = "common/countries/Quria.txt"

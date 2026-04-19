@@ -1,0 +1,24 @@
+state={
+	id=680
+	name="STATE_680"
+	manpower = 25390
+	
+	state_category = wasteland
+
+	history={
+		owner = ARZ
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 5	
+		}
+		add_core_of = ARZ
+
+	}
+
+
+	provinces={
+		901 1549 1578 1606 1634 2013 3942 6883 7513 10383 10882 12316 12442 
+	}
+}
