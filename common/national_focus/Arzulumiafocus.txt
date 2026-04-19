@@ -1081,7 +1081,7 @@ focus_tree = {
 		icon = GFX_goal_anschluss
 		prerequisite = { 
 			focus = ARZ_force_the_jews_into_slave_labour
-			focus = ARZ_ARZek_issues_order_no227
+			focus = ARZ_Arzulumia_issues_order_no227
 		}
 		mutually_exclusive = { focus = ARZ_work_with_hitler }
 		mutually_exclusive = { focus = ARZ_work_with_stalin }
@@ -1101,7 +1101,7 @@ focus_tree = {
 		id = ARZ_work_with_stalin
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { 
-			focus = ARZ_ARZek_issues_order_no227
+			focus = ARZ_Arzulumia_issues_order_no227
 		}
 		mutually_exclusive = { focus = ARZ_work_with_hitler }
 		mutually_exclusive = { focus = ARZ_ARZeks_own_faction }
@@ -1337,7 +1337,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_ARZek_finds_chrominum
+		id = ARZ_ARZek_finds_chromium
 		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { focus = ARZ_ARZek_finds_oil } 
 		x = -6
@@ -1358,7 +1358,7 @@ focus_tree = {
 	focus = {
 		id = ARZ_ARZek_finds_rubber
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = ARZ_ARZek_finds_chrominum } 
+		prerequisite = { focus = ARZ_ARZek_finds_chromium } 
 		x = -6
 		y = 5
 		cost = 15
@@ -2043,4 +2043,23 @@ focus_tree = {
 		}
 	}
 
+
+focus = {
+    id = ARZ_make_our_swamp_equal
+    icon = GFX_focus_generic_military_mission
+    cost = 5
+    x = 0
+    y = 0
+    available = { always = yes }
+    completion_reward = { add_political_power = 50 }
+}
+focus = {
+    id = ARZ_send_green_people_to_work
+    icon = GFX_focus_generic_industry_1
+    cost = 5
+    x = 2
+    y = 0
+    available = { always = yes }
+    completion_reward = { add_stability = 0.05 }
+}
 }	
