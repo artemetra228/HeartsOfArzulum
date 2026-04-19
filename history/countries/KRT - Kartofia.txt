@@ -80,6 +80,9 @@ set_politics = {
 
 set_popularities = {
 	democratic = 5
+	fascism = 30
+	communism = 30
+	neutrality = 35
 }
 create_country_leader = {	
 	name = "Величайшая Картошка II"
