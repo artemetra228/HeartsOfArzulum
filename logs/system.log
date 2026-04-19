@@ -1,33 +1,33 @@
-[21:12:14][no_game_date][systemsettings.cpp:163]: OS: OSX Version 26.3 (Build 25D125)
-[21:12:14][no_game_date][systemsettings.cpp:164]: OS Lang: en_RU
-[21:12:14][no_game_date][systemsettings.cpp:165]: CPU Model: Intel (Westmere)
-[21:12:14][no_game_date][systemsettings.cpp:166]: Number of cores: 8 (8)
-[21:12:14][no_game_date][systemsettings.cpp:168]: Estimated CPU speed: 2400MHz
-[21:12:14][no_game_date][systemsettings.cpp:169]: System memory: 16384MB
-[21:12:14][no_game_date][gfx_opengl.cpp:3354]: Loading settings for adapter 0, fullscreen=0, multisample=15
-[21:12:14][no_game_date][gfx_opengl.cpp:3423]: Checking for multi-sampling support:
-[21:12:14][no_game_date][gfx_opengl.cpp:3449]: MaxTextureWidth: 16384
-[21:12:14][no_game_date][gfx_opengl.cpp:3450]: MaxTextureHeight: 16384
-[21:12:14][no_game_date][graphicssettings.cpp:172]: 	2 samples supported.
-[21:12:14][no_game_date][graphicssettings.cpp:172]: 	4 samples supported.
-[21:12:14][no_game_date][graphicssettings.cpp:210]: Video adapter: 
-[21:12:14][no_game_date][graphicssettings.cpp:211]: Video driver: 
-[21:12:14][no_game_date][graphicssettings.cpp:212]: Video driver version: 0.0.0.0
-[21:12:14][no_game_date][graphicssettings.cpp:213]: Video memory: 0
-[21:12:14][no_game_date][graphicssettings.cpp:214]: Support for Anisotropic filtering found.
-[21:12:14][no_game_date][graphicssettings.cpp:218]: 	Max Anisotropic filtering supported: 16
-[21:12:14][no_game_date][graphicssettings.cpp:219]: 	Anisotropic filtering set to: 4
-[21:12:18][no_game_date][main.cpp:2127]: Creating application...
-[21:12:18][no_game_date][graphicssettings.cpp:747]: Using multisampling: 4
-[21:12:20][no_game_date][gameapplication.cpp:1235]: Initializing application...
-[21:12:22][no_game_date][gameapplication.cpp:1241]: Done initializing application
-[21:12:22][no_game_date][gameapplication.cpp:1244]: Loading cursor...
-[21:12:22][no_game_date][graphicssettings.cpp:747]: Using multisampling: 4
-[21:12:22][no_game_date][graphics.cpp:972]: Creating device with: HARDWARE_VERTEXPROCESSING
+[21:27:34][no_game_date][systemsettings.cpp:163]: OS: OSX Version 26.3 (Build 25D125)
+[21:27:34][no_game_date][systemsettings.cpp:164]: OS Lang: en_RU
+[21:27:34][no_game_date][systemsettings.cpp:165]: CPU Model: Intel (Westmere)
+[21:27:34][no_game_date][systemsettings.cpp:166]: Number of cores: 8 (8)
+[21:27:34][no_game_date][systemsettings.cpp:168]: Estimated CPU speed: 2400MHz
+[21:27:34][no_game_date][systemsettings.cpp:169]: System memory: 16384MB
+[21:27:34][no_game_date][gfx_opengl.cpp:3354]: Loading settings for adapter 0, fullscreen=0, multisample=15
+[21:27:35][no_game_date][gfx_opengl.cpp:3423]: Checking for multi-sampling support:
+[21:27:35][no_game_date][gfx_opengl.cpp:3449]: MaxTextureWidth: 16384
+[21:27:35][no_game_date][gfx_opengl.cpp:3450]: MaxTextureHeight: 16384
+[21:27:35][no_game_date][graphicssettings.cpp:172]: 	2 samples supported.
+[21:27:35][no_game_date][graphicssettings.cpp:172]: 	4 samples supported.
+[21:27:35][no_game_date][graphicssettings.cpp:210]: Video adapter: 
+[21:27:35][no_game_date][graphicssettings.cpp:211]: Video driver: 
+[21:27:35][no_game_date][graphicssettings.cpp:212]: Video driver version: 0.0.0.0
+[21:27:35][no_game_date][graphicssettings.cpp:213]: Video memory: 0
+[21:27:35][no_game_date][graphicssettings.cpp:214]: Support for Anisotropic filtering found.
+[21:27:35][no_game_date][graphicssettings.cpp:218]: 	Max Anisotropic filtering supported: 16
+[21:27:35][no_game_date][graphicssettings.cpp:219]: 	Anisotropic filtering set to: 4
+[21:27:39][no_game_date][main.cpp:2127]: Creating application...
+[21:27:39][no_game_date][graphicssettings.cpp:747]: Using multisampling: 4
+[21:27:44][no_game_date][gameapplication.cpp:1235]: Initializing application...
+[21:27:46][no_game_date][gameapplication.cpp:1241]: Done initializing application
+[21:27:46][no_game_date][gameapplication.cpp:1244]: Loading cursor...
+[21:27:46][no_game_date][graphicssettings.cpp:747]: Using multisampling: 4
+[21:27:46][no_game_date][graphics.cpp:972]: Creating device with: HARDWARE_VERTEXPROCESSING
 	Fullscreen=no
 	Resolution=1470x923
 	Renderer=OpenGL
-[21:12:22][no_game_date][gfx_opengl.cpp:1041]: 
+[21:27:46][no_game_date][gfx_opengl.cpp:1041]: 
 OpenGL Version: 2.1 Metal - 90.5
 Supported Extensions:
 GL_ARB_color_buffer_float
@@ -164,60 +164,60 @@ GL_SGIS_generate_mipmap
 GL_SGIS_texture_edge_clamp
 GL_SGIS_texture_lod
 
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 2560 1664 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 2560 1600 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 2048 1332 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 2048 1280 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 1920 1200 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 1710 1112 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 1710 1068 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 1470 956 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 1470 918 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 1280 832 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 1280 800 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 1024 666 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 1024 640 60
-[21:12:22][no_game_date][graphicssettings.cpp:715]: Usable res: 960 600 60
-[21:12:22][no_game_date][graphics.cpp:1007]: Done creating device.
-[21:12:41][no_game_date][gameapplication.cpp:1490]: Version: Musketeer v1.17.5.2.ef5d (cdcd) build time: Mar 25 2026 15:37:29
-[21:12:41][no_game_date][gameapplication.cpp:1495]: Active DLC Count: 38
-[21:12:41][no_game_date][gameapplication.cpp:1496]: Active Mod Count: 0
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Allied Armor Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Allied Radio Music Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Allied Speeches Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Anniversary Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Arms Against Tyranny
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Arms Against Tyranny Preorder Bonus
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Axis Armor Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Battle for the Bosporus
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: British Tanks Unit Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: By Blood Alone
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: By Blood Alone Preorder Bonus
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Content Creator Pack - Soviet Union 2D Art
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Eastern Front Planes Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Expansion Pass 1: Ride of the Valkyries
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Expansion Pass 1: Supporter Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Expansion Pass 2: Seaplane Tenders
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: French Tanks Unit Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: German March Order Music Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: German Tanks Unit Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Gotterdammerung
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Graveyard of Empires
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Historical German Portraits
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: La Resistance
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: La Resistance Preorder Bonus
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: No Compromise, No Surrender
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: No Step Back
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: No Step Back Preorder Bonus
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Poland: United and Ready
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Prototype Vehicles
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Radio Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Rocket Launcher Unit Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Sabaton Soundtrack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Sabaton Soundtrack Vol.2
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Songs of the Eastern Front
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Soviet Tanks Unit Pack
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Trial of Allegiance
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: Trial of Allegiance Preorder Bonus
-[21:12:41][no_game_date][gameapplication.cpp:1500]: Active DLC: US Tanks Unit Pack
-[21:12:54][1936.01.01.12][graphicssettings.cpp:747]: Using multisampling: 4
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 2560 1664 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 2560 1600 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 2048 1332 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 2048 1280 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 1920 1200 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 1710 1112 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 1710 1068 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 1470 956 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 1470 918 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 1280 832 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 1280 800 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 1024 666 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 1024 640 60
+[21:27:46][no_game_date][graphicssettings.cpp:715]: Usable res: 960 600 60
+[21:27:46][no_game_date][graphics.cpp:1007]: Done creating device.
+[21:28:10][no_game_date][gameapplication.cpp:1490]: Version: Musketeer v1.17.5.2.ef5d (cdcd) build time: Mar 25 2026 15:37:29
+[21:28:10][no_game_date][gameapplication.cpp:1495]: Active DLC Count: 38
+[21:28:10][no_game_date][gameapplication.cpp:1496]: Active Mod Count: 0
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Allied Armor Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Allied Radio Music Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Allied Speeches Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Anniversary Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Arms Against Tyranny
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Arms Against Tyranny Preorder Bonus
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Axis Armor Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Battle for the Bosporus
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: British Tanks Unit Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: By Blood Alone
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: By Blood Alone Preorder Bonus
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Content Creator Pack - Soviet Union 2D Art
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Eastern Front Planes Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Expansion Pass 1: Ride of the Valkyries
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Expansion Pass 1: Supporter Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Expansion Pass 2: Seaplane Tenders
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: French Tanks Unit Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: German March Order Music Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: German Tanks Unit Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Gotterdammerung
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Graveyard of Empires
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Historical German Portraits
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: La Resistance
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: La Resistance Preorder Bonus
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: No Compromise, No Surrender
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: No Step Back
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: No Step Back Preorder Bonus
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Poland: United and Ready
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Prototype Vehicles
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Radio Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Rocket Launcher Unit Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Sabaton Soundtrack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Sabaton Soundtrack Vol.2
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Songs of the Eastern Front
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Soviet Tanks Unit Pack
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Trial of Allegiance
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: Trial of Allegiance Preorder Bonus
+[21:28:10][no_game_date][gameapplication.cpp:1500]: Active DLC: US Tanks Unit Pack
+[21:28:23][1936.01.01.12][graphicssettings.cpp:747]: Using multisampling: 4

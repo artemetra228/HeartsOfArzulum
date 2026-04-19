@@ -1,7 +1,7 @@
-[21:12:17][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3047188499.mod line: 7
-[21:12:17][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3375256356.mod line: 6
-[21:12:17][no_game_date][persistent.cpp:66]: Error: "Unexpected token: thumbnail.png, near line: 8" in file: "mod/ugc_3585920882.mod" near line: 8
-[21:12:17][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_699302152.mod line: 8
-[21:12:32][no_game_date][pdx_entity.cpp:2172]: Duplicate of JAP_light_plane_1_entity added to entity system
-[21:12:32][no_game_date][pdx_entity.cpp:2172]: Duplicate of JAP_light_plane_3_entity added to entity system
-[21:12:34][no_game_date][equipment_graphic_database.cpp:46]: GFX referenced in equipment graphic database does not exist: "GFX_JAP_land_cruiser_armor_medium", associated with JAP land_cruiser_chassis_1
+[21:27:38][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3047188499.mod line: 7
+[21:27:38][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3375256356.mod line: 6
+[21:27:38][no_game_date][persistent.cpp:66]: Error: "Unexpected token: thumbnail.png, near line: 8" in file: "mod/ugc_3585920882.mod" near line: 8
+[21:27:38][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_699302152.mod line: 8
+[21:27:58][no_game_date][pdx_entity.cpp:2172]: Duplicate of JAP_light_plane_1_entity added to entity system
+[21:27:58][no_game_date][pdx_entity.cpp:2172]: Duplicate of JAP_light_plane_3_entity added to entity system
+[21:28:00][no_game_date][equipment_graphic_database.cpp:46]: GFX referenced in equipment graphic database does not exist: "GFX_JAP_land_cruiser_armor_medium", associated with JAP land_cruiser_chassis_1
