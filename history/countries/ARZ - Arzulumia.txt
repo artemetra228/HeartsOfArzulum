@@ -105,6 +105,6 @@ create_country_leader = {
 	ideology = centrism
 }
 
-	}
-}
+	
+
 

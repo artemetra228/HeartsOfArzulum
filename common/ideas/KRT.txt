@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		lonely_ARZ = {
+		lonely_KRT = {
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
@@ -12,7 +12,7 @@ ideas = {
 				ai_get_ally_desire_factor = -100
 			}
 		}
-		ARZ_order_no227 = {
+		KRT_order_no227 = {
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
@@ -21,7 +21,7 @@ ideas = {
 				army_core_defence_factor = 0.2
 			}
 		}
-		ARZ_new_army_policy = {
+		KRT_new_army_policy = {
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
@@ -29,7 +29,7 @@ ideas = {
 				attrition = -0.15
 			}
 		}
-		ARZ_defensive_tactics = {
+		KRT_defensive_tactics = {
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
