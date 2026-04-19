@@ -1,17 +1,17 @@
 focus_tree = {
-	id = arzulum_focus
+	id = quria_focus
 	
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = ARZ
+			tag = MRK
 		}
 	}
 
 	focus = {
-		id = ARZ_political_effort
+		id = MRK_political_effort
 		icon = GFX_goal_generic_demand_territory
 		x = 13
 		y = -2
@@ -25,13 +25,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_bring_back_nazi_ARZek
+		id = MRK_bring_back_nazi_ARZek
 		icon = GFX_goal_support_fascism
 		prerequisite = { 
-			focus = ARZ_collectivist_path
+			focus = MRK_collectivist_path
 		}
 		mutually_exclusive = {
-			focus = ARZ_make_our_swamp_equal
+			focus = MRK_make_our_swamp_equal
 		}
 		x = 10
 		y = 2
@@ -47,13 +47,13 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_make_our_ASS_equal
+		id = MRK_make_our_ASS_equal
 		icon = GFX_goal_support_communism
 		prerequisite = { 
-			focus = ARZ_collectivist_path
+			focus = MRK_collectivist_path
 		}
 		mutually_exclusive = {
-			focus = ARZ_bring_back_nazi_ARZek
+			focus = MRK_bring_back_nazi_ARZek
 		}
 		x = 6
 		y = 2
@@ -69,10 +69,10 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_send_ASS_people_to_work
+		id = MRK_send_ASS_people_to_work
 		icon = GFX_goal_generic_production
 		prerequisite = { 
-			focus = ARZ_make_our_swamp_equal
+			focus = MRK_make_our_swamp_equal
 		}
 		available = {
 			has_government = communism
@@ -104,10 +104,10 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_Arzulumia_issues_order_no227
+		id = MRK_Arzulumia_issues_order_no227
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { 
-			focus = ARZ_send_green_people_to_work
+			focus = MRK_send_green_people_to_work
 		}
 		x = 2
 		y = 5
@@ -123,9 +123,9 @@ focus_tree = {
 
 
 	focus = {
-		id = ARZ_take_our_peoples_money_and_give_it_to_ARZek
+		id = MRK_take_our_peoples_money_and_give_it_to_ARZek
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = ARZ_ARZeks_dream_about_communism_was_real }
+		prerequisite = { focus = MRK_ARZeks_dream_about_communism_was_real }
 		x = 4
 		y = 4
 		cost = 10
@@ -140,9 +140,9 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_invest_Arzulums_new_money
+		id = MRK_invest_Arzulums_new_money
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = ARZ_take_our_peoples_money_and_give_it_to_ARZek }
+		prerequisite = { focus = MRK_take_our_peoples_money_and_give_it_to_ARZek }
 		x = 4
 		y = 5
 		cost = 10
@@ -160,10 +160,10 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_jewish_scientists
+		id = MRK_jewish_scientists
 		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = ARZ_ARZeks_dream_about_communism_was_real }
-		prerequisite = { focus = ARZ_annex_israel }
+		prerequisite = { focus = MRK_ARZeks_dream_about_communism_was_real }
+		prerequisite = { focus = MRK_annex_israel }
 		x = 6
 		y = 4
 		cost = 10
@@ -176,9 +176,9 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_ARZeks_dream_about_communism_was_real
+		id = MRK_ARZeks_dream_about_communism_was_real
 		icon = GFX_goal_generic_war_with_comintern
-		prerequisite = { focus = ARZ_make_our_swamp_equal }
+		prerequisite = { focus = MRK_make_our_swamp_equal }
 		available = {
 			has_government = communism
 		}
@@ -195,13 +195,13 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_freedom_for_all_green_people
+		id = MRK_freedom_for_all_green_people
 		icon = GFX_goal_support_democracy
 		prerequisite = { 
-			focus = ARZ_political_effort 
+			focus = MRK_political_effort 
 		}
 		mutually_exclusive = {
-			focus = ARZ_collectivist_path
+			focus = MRK_collectivist_path
 		}
 		x = 18
 		y = -1
@@ -217,10 +217,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_immigrants
+		id = MRK_immigrants
 		icon = GFX_goal_generic_improve_relations
 		prerequisite = { 
-			focus = ARZ_freedom_for_all_green_people 
+			focus = MRK_freedom_for_all_green_people 
 		}
 		available = {
 			has_government = democratic
@@ -238,10 +238,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_non_green_workers
+		id = MRK_non_green_workers
 		icon = GFX_goal_generic_production
 		prerequisite = { 
-			focus = ARZ_immigrants 
+			focus = MRK_immigrants 
 		}
 		x = 15
 		y = 1
@@ -269,12 +269,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_continue_to_support_immigration
+		id = MRK_continue_to_support_immigration
 		icon = GFX_goal_generic_improve_relations
 		prerequisite = { 
-			focus = ARZ_non_green_workers
+			focus = MRK_non_green_workers
 		}
-		mutually_exclusive = { focus = ARZ_betray_the_immigrants }
+		mutually_exclusive = { focus = MRK_betray_the_immigrants }
 		x = 16
 		y = 2
 		cost = 10
@@ -287,10 +287,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_non_green_inventors
+		id = MRK_non_green_inventors
 		icon = GFX_focus_research
 		prerequisite = { 
-			focus = ARZ_continue_to_support_immigration
+			focus = MRK_continue_to_support_immigration
 		}
 		x = 16
 		y = 3
@@ -305,10 +305,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_immigrants_investing_in_factories
+		id = MRK_immigrants_investing_in_factories
 		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { 
-			focus = ARZ_non_green_inventors
+			focus = MRK_non_green_inventors
 		}
 		x = 16
 		y = 4
@@ -330,10 +330,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_even_more_non_green_factories
+		id = MRK_even_more_non_green_factories
 		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { 
-			focus = ARZ_immigrants_investing_in_factories
+			focus = MRK_immigrants_investing_in_factories
 		}
 		x = 16
 		y = 5
@@ -355,12 +355,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_betray_the_immigrants
+		id = MRK_betray_the_immigrants
 		icon = GFX_goal_support_fascism
 		prerequisite = { 
-			focus = ARZ_non_green_workers
+			focus = MRK_non_green_workers
 		}
-		mutually_exclusive = { focus = ARZ_continue_to_support_immigration }
+		mutually_exclusive = { focus = MRK_continue_to_support_immigration }
 		x = 14
 		y = 2
 		cost = 10
@@ -376,11 +376,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_kill_everyone_thats_not_green
+		id = MRK_kill_everyone_thats_not_green
 		icon = GFX_goal_generic_secret_weapon
 		prerequisite = { 
-			focus = ARZ_betray_the_immigrants
-			focus = ARZ_bring_back_nazi_ARZek
+			focus = MRK_betray_the_immigrants
+			focus = MRK_bring_back_nazi_ARZek
 		}
 		available = {
 			has_government = fascism
@@ -405,10 +405,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_ARZeks_new_army_policy
+		id = MRK_ARZeks_new_army_policy
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { 
-			focus = ARZ_kill_everyone_thats_not_green
+			focus = MRK_kill_everyone_thats_not_green
 		}
 		x = 14
 		y = 6
@@ -425,10 +425,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_finally_democratic
+		id = MRK_finally_democratic
 		icon = GFX_goal_support_democracy
 		prerequisite = { 
-			focus = ARZ_freedom_for_all_green_people 
+			focus = MRK_freedom_for_all_green_people 
 		}
 		available = {
 			has_government = democratic
@@ -445,10 +445,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_for_the_democratic_swamp
+		id = MRK_for_the_democratic_swamp
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = { 
-			focus = ARZ_finally_democratic
+			focus = MRK_finally_democratic
 		}
 		available = { threat > 0.5 }
 		available = { has_government = democratic }
@@ -464,10 +464,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_defensive_tactics
+		id = MRK_defensive_tactics
 		icon = GFX_goal_generic_military_sphere
 		prerequisite = { 
-			focus = ARZ_for_the_democratic_swamp
+			focus = MRK_for_the_democratic_swamp
 		}
 		available = {
 			has_war = yes
@@ -485,13 +485,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_join_allies
+		id = MRK_join_allies
 		icon = GFX_goal_anschluss
 		prerequisite = { 
-			focus = ARZ_finally_democratic
+			focus = MRK_finally_democratic
 		}
 		mutually_exclusive = { 
-			focus = ARZ_ARZeks_own_democratic_faction 
+			focus = MRK_ARZeks_own_democratic_faction 
 		}
 		available = {
 			has_government = democratic
@@ -504,18 +504,18 @@ focus_tree = {
 
 		completion_reward = {
 			remove_ideas = lonely_ARZek
-			ENG = { add_to_faction = ARZ }
+			ENG = { add_to_faction = MRK }
 		}
 	}
 
 	focus = {
-		id = ARZ_ARZeks_own_democratic_faction
+		id = MRK_ARZeks_own_democratic_faction
 		icon = GFX_goal_anschluss
 		prerequisite = { 
-			focus = ARZ_finally_democratic
+			focus = MRK_finally_democratic
 		}
 		mutually_exclusive = { 
-			focus = ARZ_join_allies 
+			focus = MRK_join_allies 
 		}
 		available = {
 			has_government = democratic
@@ -533,11 +533,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_spread_our_influence
+		id = MRK_spread_our_influence
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { 
-			focus = ARZ_join_allies
-			focus = ARZ_ARZeks_own_democratic_faction
+			focus = MRK_join_allies
+			focus = MRK_ARZeks_own_democratic_faction
 		}
 		x = 23
 		y = 2
@@ -556,15 +556,15 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_expand_allies
+		id = MRK_expand_allies
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { 
-			focus = ARZ_spread_our_influence
+			focus = MRK_spread_our_influence
 		}
 		prerequisite = { 
-			focus = ARZ_join_allies
+			focus = MRK_join_allies
 		}
-		mutually_exclusive = { focus = ARZ_help_ARZek_get_some_friends }
+		mutually_exclusive = { focus = MRK_help_ARZek_get_some_friends }
 		x = 21
 		y = 3
 		cost = 5
@@ -577,10 +577,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_turkey_joins
+		id = MRK_turkey_joins
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { 
-			focus = ARZ_expand_allies
+			focus = MRK_expand_allies
 		}
 		x = 20
 		y = 4
@@ -594,10 +594,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_iran_joins
+		id = MRK_iran_joins
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { 
-			focus = ARZ_expand_allies
+			focus = MRK_expand_allies
 		}
 		x = 22
 		y = 4
@@ -611,10 +611,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_saudi_arabia_joins
+		id = MRK_saudi_arabia_joins
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { 
-			focus = ARZ_turkey_joins
+			focus = MRK_turkey_joins
 		}
 		x = 20
 		y = 5
@@ -628,10 +628,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_oman_joins
+		id = MRK_oman_joins
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { 
-			focus = ARZ_iran_joins
+			focus = MRK_iran_joins
 		}
 		x = 22
 		y = 5
@@ -645,11 +645,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_yemen_joins
+		id = MRK_yemen_joins
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { 
-			focus = ARZ_oman_joins
-			focus = ARZ_saudi_arabia_joins
+			focus = MRK_oman_joins
+			focus = MRK_saudi_arabia_joins
 		}
 		x = 21
 		y = 6
@@ -663,13 +663,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_help_ARZek_get_some_friends
+		id = MRK_help_ARZek_get_some_friends
 		icon = GFX_goal_generic_alliance
 		prerequisite = { 
-			focus = ARZ_spread_our_influence
+			focus = MRK_spread_our_influence
 		}
 		prerequisite = { 
-			focus = ARZ_ARZeks_own_democratic_faction
+			focus = MRK_ARZeks_own_democratic_faction
 		}
 		x = 25
 		y = 3
@@ -678,15 +678,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			ARZ = { add_to_faction = IRQ }
+			MRK = { add_to_faction = IRQ }
 		}
 	}
 
 	focus = {
-		id = ARZ_invite_turkey
+		id = MRK_invite_turkey
 		icon = GFX_goal_generic_alliance
 		prerequisite = { 
-			focus = ARZ_help_ARZek_get_some_friends
+			focus = MRK_help_ARZek_get_some_friends
 		}
 		x = 24
 		y = 4
@@ -695,15 +695,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			ARZ = { add_to_faction = TUR }
+			MRK = { add_to_faction = TUR }
 		}
 	}
 
 	focus = {
-		id = ARZ_invite_iran
+		id = MRK_invite_iran
 		icon = GFX_goal_generic_alliance
 		prerequisite = { 
-			focus = ARZ_help_ARZek_get_some_friends
+			focus = MRK_help_ARZek_get_some_friends
 		}
 		x = 26
 		y = 4
@@ -712,15 +712,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			ARZ = { add_to_faction = PER }
+			MRK = { add_to_faction = PER }
 		}
 	}
 
 	focus = {
-		id = ARZ_invite_saudi_arabia
+		id = MRK_invite_saudi_arabia
 		icon = GFX_goal_generic_alliance
 		prerequisite = { 
-			focus = ARZ_invite_turkey
+			focus = MRK_invite_turkey
 		}
 		x = 24
 		y = 5
@@ -729,15 +729,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			ARZ = { add_to_faction = SAU }
+			MRK = { add_to_faction = SAU }
 		}
 	}
 
 	focus = {
-		id = ARZ_invite_oman
+		id = MRK_invite_oman
 		icon = GFX_goal_generic_alliance
 		prerequisite = { 
-			focus = ARZ_invite_iran
+			focus = MRK_invite_iran
 		}
 		x = 26
 		y = 5
@@ -746,16 +746,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			ARZ = { add_to_faction = OMA }
+			MRK = { add_to_faction = OMA }
 		}
 	}
 
 	focus = {
-		id = ARZ_invite_yemen
+		id = MRK_invite_yemen
 		icon = GFX_goal_generic_alliance
 		prerequisite = { 
-			focus = ARZ_invite_saudi_arabia
-			focus = ARZ_invite_oman
+			focus = MRK_invite_saudi_arabia
+			focus = MRK_invite_oman
 		}
 		x = 25
 		y = 6
@@ -764,18 +764,18 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			ARZ = { add_to_faction = YEM }
+			MRK = { add_to_faction = YEM }
 		}
 	}
 
 	focus = {
-		id = ARZ_collectivist_path
+		id = MRK_collectivist_path
 		icon = GFX_goal_generic_national_unity
 		prerequisite = { 
-			focus = ARZ_political_effort 
+			focus = MRK_political_effort 
 		}
 		mutually_exclusive = {
-			focus = ARZ_freedom_for_all_green_people
+			focus = MRK_freedom_for_all_green_people
 		}
 		x = 8
 		y = -1
@@ -789,10 +789,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_ARZeks_private_army
+		id = MRK_ARZeks_private_army
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = { 
-			focus = ARZ_collectivist_path
+			focus = MRK_collectivist_path
 		}
 		available = {
 			threat > 0.10
@@ -810,12 +810,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_annex_israel
+		id = MRK_annex_israel
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = {
-			focus = ARZ_bring_back_nazi_ARZek
-			focus = ARZ_make_our_swamp_equal
-			focus = ARZ_betray_the_immigrants
+			focus = MRK_bring_back_nazi_ARZek
+			focus = MRK_make_our_swamp_equal
+			focus = MRK_betray_the_immigrants
 		}
 		available = {
 			OR = {
@@ -830,16 +830,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			ARZ = { set_state_owner = 454 }
+			MRK = { set_state_owner = 454 }
 			add_threat = 3
 		}
 	}
 
 	focus = {
-		id = ARZ_annex_jordan
+		id = MRK_annex_jordan
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { 
-			focus = ARZ_annex_israel
+			focus = MRK_annex_israel
 		}
 		x = 10
 		y = 4
@@ -848,16 +848,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			ARZ = { set_state_owner = 455 }
-			add_named_threat = { threat = 1 name = ARZ_threat }
+			MRK = { set_state_owner = 455 }
+			add_named_threat = { threat = 1 name = MRK_threat }
 		}
 	}
 
 	focus = {
-		id = ARZ_our_swamp_now
+		id = MRK_our_swamp_now
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		prerequisite = { 
-			focus = ARZ_annex_israel
+			focus = MRK_annex_israel
 		}
 		x = 8
 		y = 4
@@ -875,10 +875,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_more_desert_for_ARZek
+		id = MRK_more_desert_for_ARZek
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		prerequisite = { 
-			focus = ARZ_annex_jordan
+			focus = MRK_annex_jordan
 		}
 		x = 10
 		y = 5
@@ -896,10 +896,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_the_bigger_swamp_the_better
+		id = MRK_the_bigger_swamp_the_better
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		prerequisite = { 
-			focus = ARZ_our_swamp_now
+			focus = MRK_our_swamp_now
 		}
 		x = 8
 		y = 5
@@ -917,13 +917,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_open_up_concentration_camps
+		id = MRK_open_up_concentration_camps
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { 
-			focus = ARZ_bring_back_nazi_ARZek 
-			focus = ARZ_betray_the_immigrants
+			focus = MRK_bring_back_nazi_ARZek 
+			focus = MRK_betray_the_immigrants
 		}
-		prerequisite = { focus = ARZ_annex_israel }
+		prerequisite = { focus = MRK_annex_israel }
 		available = {
 			has_government = fascism
 		}
@@ -942,10 +942,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_force_the_jews_into_slave_labour
+		id = MRK_force_the_jews_into_slave_labour
 		icon = GFX_goal_generic_dangerous_deal
 		prerequisite = { 
-			focus = ARZ_open_up_concentration_camps
+			focus = MRK_open_up_concentration_camps
 		}
 		x = 12
 		y = 5
@@ -965,13 +965,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_a_green_state
+		id = MRK_a_green_state
 		icon = GFX_goal_support_fascism
 		prerequisite = { 
-			focus = ARZ_experiment_with_jews			
+			focus = MRK_experiment_with_jews			
 		}
 		prerequisite = {
-			focus = ARZ_ARZeks_new_army_policy
+			focus = MRK_ARZeks_new_army_policy
 		}
 		x = 13
 		y = 7
@@ -986,10 +986,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_experiment_with_jews
+		id = MRK_experiment_with_jews
 		icon = GFX_focus_research
 		prerequisite = { 
-			focus = ARZ_force_the_jews_into_slave_labour
+			focus = MRK_force_the_jews_into_slave_labour
 		}
 		x = 12
 		y = 6
@@ -1004,11 +1004,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_force_green_people_into_the_army
+		id = MRK_force_green_people_into_the_army
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = { 
-			focus = ARZ_bring_back_nazi_ARZek
-			focus = ARZ_betray_the_immigrants
+			focus = MRK_bring_back_nazi_ARZek
+			focus = MRK_betray_the_immigrants
 		}
 		available = {
 			has_government = fascism
@@ -1027,11 +1027,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_force_green_people_to_get_10_children
+		id = MRK_force_green_people_to_get_10_children
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = { 
-			focus = ARZ_bring_back_nazi_ARZek
-			focus = ARZ_betray_the_immigrants
+			focus = MRK_bring_back_nazi_ARZek
+			focus = MRK_betray_the_immigrants
 		}
 		available = {
 			has_government = fascism
@@ -1057,13 +1057,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_work_with_hitler
+		id = MRK_work_with_hitler
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { 
-			focus = ARZ_force_the_jews_into_slave_labour
+			focus = MRK_force_the_jews_into_slave_labour
 		}
-		mutually_exclusive = { focus = ARZ_work_with_stalin }
-		mutually_exclusive = { focus = ARZ_ARZeks_own_faction }
+		mutually_exclusive = { focus = MRK_work_with_stalin }
+		mutually_exclusive = { focus = MRK_ARZeks_own_faction }
 		x = 9
 		y = 6
 		cost = 10
@@ -1072,19 +1072,19 @@ focus_tree = {
 
 		completion_reward = {
 			remove_ideas = lonely_ARZek
-			GER = { add_to_faction = ARZ}
+			GER = { add_to_faction = MRK}
   		}
 	}	
 
 	focus = {
-		id = ARZ_ARZeks_own_faction
+		id = MRK_ARZeks_own_faction
 		icon = GFX_goal_anschluss
 		prerequisite = { 
-			focus = ARZ_force_the_jews_into_slave_labour
-			focus = ARZ_ARZek_issues_order_no227
+			focus = MRK_force_the_jews_into_slave_labour
+			focus = MRK_ARZek_issues_order_no227
 		}
-		mutually_exclusive = { focus = ARZ_work_with_hitler }
-		mutually_exclusive = { focus = ARZ_work_with_stalin }
+		mutually_exclusive = { focus = MRK_work_with_hitler }
+		mutually_exclusive = { focus = MRK_work_with_stalin }
 		x = 6
 		y = 6
 		cost = 10
@@ -1098,13 +1098,13 @@ focus_tree = {
 	}		
 
 	focus = {
-		id = ARZ_work_with_stalin
+		id = MRK_work_with_stalin
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { 
-			focus = ARZ_ARZek_issues_order_no227
+			focus = MRK_ARZek_issues_order_no227
 		}
-		mutually_exclusive = { focus = ARZ_work_with_hitler }
-		mutually_exclusive = { focus = ARZ_ARZeks_own_faction }
+		mutually_exclusive = { focus = MRK_work_with_hitler }
+		mutually_exclusive = { focus = MRK_ARZeks_own_faction }
 		x = 3
 		y = 6
 		cost = 10
@@ -1113,12 +1113,12 @@ focus_tree = {
 
 		completion_reward = {
 			remove_ideas = lonely_ARZek
-			SOV = { add_to_faction = ARZ }
+			SOV = { add_to_faction = MRK }
   		}
 	}								
 
 	focus = {
-		id = ARZ_get_more_building_slots
+		id = MRK_get_more_building_slots
 		icon = GFX_goal_generic_construction
 		x = 0
 		y = 0
@@ -1139,7 +1139,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_industrial_effort
+		id = MRK_industrial_effort
 		icon = GFX_goal_generic_production		
 		x = -2
 		y = 0
@@ -1158,9 +1158,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_make_ARZek_feel_safe
+		id = MRK_make_ARZek_feel_safe
 		icon = GFX_goal_generic_fortify_city	
-		prerequisite = { focus = ARZ_get_more_building_slots }
+		prerequisite = { focus = MRK_get_more_building_slots }
 		available = {
 			threat > 0.25
 		}
@@ -1189,10 +1189,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_develop_deir_az_zur
+		id = MRK_develop_deir_az_zur
 		icon = GFX_goal_generic_construct_infrastructure	
 		prerequisite = {
-			focus = ARZ_industrial_effort
+			focus = MRK_industrial_effort
 		}
 		x = -4
 		y = 1
@@ -1212,10 +1212,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_build_swamp_huts_in_deir_az_zur
+		id = MRK_build_swamp_huts_in_deir_az_zur
 		icon = GFX_goal_generic_construct_infrastructure	
 		prerequisite = {
-			focus = ARZ_develop_deir_az_zur
+			focus = MRK_develop_deir_az_zur
 		}
 		x = -4
 		y = 2
@@ -1230,10 +1230,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_develop_our_islands
+		id = MRK_develop_our_islands
 		icon = GFX_goal_generic_construct_infrastructure	
 		prerequisite = {
-			focus = ARZ_industrial_effort
+			focus = MRK_industrial_effort
 		}
 		x = -8
 		y = 1
@@ -1271,10 +1271,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_develop_west_syria
+		id = MRK_develop_west_syria
 		icon = GFX_goal_generic_construct_infrastructure	
 		prerequisite = {
-			focus = ARZ_industrial_effort
+			focus = MRK_industrial_effort
 		}
 		x = -6
 		y = 1
@@ -1300,7 +1300,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_ARZek_finds_oil
+		id = MRK_ARZek_finds_oil
 		icon = GFX_goal_generic_oil_refinery
 		x = -5
 		y = 3
@@ -1318,9 +1318,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_ARZek_finds_steel
+		id = MRK_ARZek_finds_steel
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = ARZ_ARZek_finds_oil } 
+		prerequisite = { focus = MRK_ARZek_finds_oil } 
 		x = -4
 		y = 4
 		cost = 15
@@ -1337,9 +1337,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_ARZek_finds_chrominum
+		id = MRK_ARZek_finds_chrominum
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = ARZ_ARZek_finds_oil } 
+		prerequisite = { focus = MRK_ARZek_finds_oil } 
 		x = -6
 		y = 4
 		cost = 15
@@ -1356,9 +1356,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_ARZek_finds_rubber
+		id = MRK_ARZek_finds_rubber
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = ARZ_ARZek_finds_chrominum } 
+		prerequisite = { focus = MRK_ARZek_finds_chrominum } 
 		x = -6
 		y = 5
 		cost = 15
@@ -1375,9 +1375,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_ARZek_finds_aluminium
+		id = MRK_ARZek_finds_aluminium
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = ARZ_ARZek_finds_steel } 
+		prerequisite = { focus = MRK_ARZek_finds_steel } 
 		x = -4
 		y = 5
 		cost = 15
@@ -1394,10 +1394,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_ARZek_finds_tungsten
+		id = MRK_ARZek_finds_tungsten
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = ARZ_ARZek_finds_aluminium } 
-		prerequisite = { focus = ARZ_ARZek_finds_rubber } 
+		prerequisite = { focus = MRK_ARZek_finds_aluminium } 
+		prerequisite = { focus = MRK_ARZek_finds_rubber } 
 		x = -5
 		y = 6
 		cost = 15
@@ -1414,10 +1414,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_civilian_factories_1
+		id = MRK_civilian_factories_1
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = ARZ_get_more_building_slots }
-		prerequisite = { focus = ARZ_industrial_effort } 
+		prerequisite = { focus = MRK_get_more_building_slots }
+		prerequisite = { focus = MRK_industrial_effort } 
 		x = -2
 		y = 1
 		cost = 10
@@ -1436,10 +1436,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_military_factories_1
+		id = MRK_military_factories_1
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = ARZ_get_more_building_slots }
-		prerequisite = { focus = ARZ_industrial_effort }	 
+		prerequisite = { focus = MRK_get_more_building_slots }
+		prerequisite = { focus = MRK_industrial_effort }	 
 		x = 0
 		y = 1
 		cost = 10
@@ -1458,10 +1458,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_military_factories_2
+		id = MRK_military_factories_2
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { 
-			focus = ARZ_military_factories_1
+			focus = MRK_military_factories_1
 		}	 
 		x = 0
 		y = 2
@@ -1481,9 +1481,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_civilian_factories_2
+		id = MRK_civilian_factories_2
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = ARZ_civilian_factories_1 }	 
+		prerequisite = { focus = MRK_civilian_factories_1 }	 
 		x = -2
 		y = 2
 		cost = 10
@@ -1502,10 +1502,10 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_military_factories_3
+		id = MRK_military_factories_3
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { 
-			focus = ARZ_military_factories_2
+			focus = MRK_military_factories_2
 		}	 
 		x = 0
 		y = 3
@@ -1525,10 +1525,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_civilian_factories_3
+		id = MRK_civilian_factories_3
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { 
-			focus = ARZ_civilian_factories_2
+			focus = MRK_civilian_factories_2
 		}	 
 		x = -2
 		y = 3
@@ -1548,10 +1548,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_military_factories_4
+		id = MRK_military_factories_4
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { 
-			focus = ARZ_military_factories_3
+			focus = MRK_military_factories_3
 		}	 
 		x = 0
 		y = 4
@@ -1571,10 +1571,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_civilian_factories_4
+		id = MRK_civilian_factories_4
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { 
-			focus = ARZ_civilian_factories_3
+			focus = MRK_civilian_factories_3
 		}	 
 		x = -2
 		y = 4
@@ -1594,10 +1594,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_military_factories_5
+		id = MRK_military_factories_5
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { 
-			focus = ARZ_military_factories_4
+			focus = MRK_military_factories_4
 		}	 
 		x = 0
 		y = 5
@@ -1617,10 +1617,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_civilian_factories_5
+		id = MRK_civilian_factories_5
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { 
-			focus = ARZ_civilian_factories_4
+			focus = MRK_civilian_factories_4
 		}	 
 		x = -2
 		y = 5
@@ -1640,12 +1640,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ARZ_military_factories_6
+		id = MRK_military_factories_6
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = ARZ_military_factories_5 }
-		prerequisite = { focus = ARZ_civilian_factories_5 }
+		prerequisite = { focus = MRK_military_factories_5 }
+		prerequisite = { focus = MRK_civilian_factories_5 }
 		mutually_exclusive = {
-			focus = ARZ_civilian_factories_6
+			focus = MRK_civilian_factories_6
 		}
 		x = 0
 		y = 6
@@ -1672,12 +1672,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_civilian_factories_6
+		id = MRK_civilian_factories_6
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = ARZ_civilian_factories_5 }
-		prerequisite = { focus = ARZ_military_factories_5 }
+		prerequisite = { focus = MRK_civilian_factories_5 }
+		prerequisite = { focus = MRK_military_factories_5 }
 		mutually_exclusive = {
-			focus = ARZ_military_factories_6
+			focus = MRK_military_factories_6
 		}
 		x = -2
 		y = 6
@@ -1704,7 +1704,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARZ_ARZeks_army_training
+		id = MRK_ARZeks_army_training
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 28
 		y = -1
@@ -1718,9 +1718,9 @@ focus_tree = {
 	}		
 
 	focus = {
-		id = ARZ_ARZeks_doctrine
+		id = MRK_ARZeks_doctrine
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = ARZ_ARZeks_army_training }
+		prerequisite = { focus = MRK_ARZeks_army_training }
 		x = 27
 		y = 0
 		cost = 20
@@ -1739,9 +1739,9 @@ focus_tree = {
 	}		
 
 	focus = {
-		id = ARZ_ARZeks_infantry_training
+		id = MRK_ARZeks_infantry_training
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = ARZ_ARZeks_army_training }
+		prerequisite = { focus = MRK_ARZeks_army_training }
 		x = 29
 		y = 0
 		cost = 30
@@ -1761,10 +1761,10 @@ focus_tree = {
 	}		
 
 	focus = {
-		id = ARZ_ARZeks_tank_and_motorized_training
+		id = MRK_ARZeks_tank_and_motorized_training
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = ARZ_ARZeks_infantry_training }
-		prerequisite = { focus = ARZ_ARZeks_doctrine }
+		prerequisite = { focus = MRK_ARZeks_infantry_training }
+		prerequisite = { focus = MRK_ARZeks_doctrine }
 		x = 28
 		y = 1
 		cost = 20
@@ -1789,9 +1789,9 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_ARZeks_special_forces_training
+		id = MRK_ARZeks_special_forces_training
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = ARZ_ARZeks_tank_and_motorized_training }
+		prerequisite = { focus = MRK_ARZeks_tank_and_motorized_training }
 		x = 28
 		y = 2
 		cost = 10
@@ -1815,7 +1815,7 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_ARZeks_plane_training
+		id = MRK_ARZeks_plane_training
 		icon = GFX_goal_generic_build_airforce
 		x = 34
 		y = -1
@@ -1829,9 +1829,9 @@ focus_tree = {
 	}		
 
 	focus = {
-		id = ARZ_ARZeks_air_doctrine
+		id = MRK_ARZeks_air_doctrine
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = ARZ_ARZeks_plane_training }
+		prerequisite = { focus = MRK_ARZeks_plane_training }
 		x = 34
 		y = 0
 		cost = 20
@@ -1850,10 +1850,10 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_ARZeks_fighters
+		id = MRK_ARZeks_fighters
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = ARZ_ARZeks_air_doctrine }
-		mutually_exclusive = { focus = ARZ_ARZeks_bombers }
+		prerequisite = { focus = MRK_ARZeks_air_doctrine }
+		mutually_exclusive = { focus = MRK_ARZeks_bombers }
 		x = 33
 		y = 1
 		cost = 20
@@ -1878,10 +1878,10 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_ARZeks_bombers
+		id = MRK_ARZeks_bombers
 		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = ARZ_ARZeks_air_doctrine }
-		mutually_exclusive = { focus = ARZ_ARZeks_fighters }
+		prerequisite = { focus = MRK_ARZeks_air_doctrine }
+		mutually_exclusive = { focus = MRK_ARZeks_fighters }
 		x = 35
 		y = 1
 		cost = 17
@@ -1903,11 +1903,11 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_ARZeks_CAS
+		id = MRK_ARZeks_CAS
 		icon = GFX_goal_generic_CAS
 		prerequisite = { 
-			focus = ARZ_ARZeks_bombers 
-			focus = ARZ_ARZeks_fighters
+			focus = MRK_ARZeks_bombers 
+			focus = MRK_ARZeks_fighters
 		}
 		x = 33
 		y = 2
@@ -1927,11 +1927,11 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_ARZeks_NAV
+		id = MRK_ARZeks_NAV
 		icon = GFX_goal_generic_air_naval_bomber
 		prerequisite = { 
-			focus = ARZ_ARZeks_bombers 
-			focus = ARZ_ARZeks_fighters
+			focus = MRK_ARZeks_bombers 
+			focus = MRK_ARZeks_fighters
 		}
 		x = 35
 		y = 2
@@ -1951,7 +1951,7 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_ARZeks_naval_training
+		id = MRK_ARZeks_naval_training
 		icon = GFX_goal_generic_build_navy
 		x = 31
 		y = -1
@@ -1965,9 +1965,9 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_ARZeks_naval_doctrine
+		id = MRK_ARZeks_naval_doctrine
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = ARZ_ARZeks_naval_training }
+		prerequisite = { focus = MRK_ARZeks_naval_training }
 		x = 31
 		y = 0
 		cost = 20
@@ -1987,9 +1987,9 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = ARZ_ARZeks_own_ships
+		id = MRK_ARZeks_own_ships
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = ARZ_ARZeks_naval_doctrine }
+		prerequisite = { focus = MRK_ARZeks_naval_doctrine }
 		x = 31
 		y = 1
 		cost = 30
