@@ -1,68 +1,37 @@
 ideas = {
-
-	country = { 
-		lonely_Arzulum = {
-				
-			allowed = {
-				always = yes
-			}
-			
+	country = {
+		lonely_MRK = {
+			allowed = { always = yes }
 			removal_cost = -1
-	
 			modifier = {
 				generate_wargoal_tension = 1.00
 				join_faction_tension = 1.00
 				send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
-				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
+				ai_badass_factor = 0.01
 				ai_get_ally_desire_factor = -100
 			}
 		}
-	}
-
-	country = { 
-		order_no227 = {
-				
-			allowed = {
-				always = yes
-			}
-			
+		MRK_order_no227 = {
+			allowed = { always = yes }
 			removal_cost = -1
-	
 			modifier = {
 				army_morale_factor = 0.10
 				army_core_attack_factor = 0.2
 				army_core_defence_factor = 0.2
 			}
 		}
-	}
-
-	country = { 
-		Arzulum_new_army_policy = {
-				
-			allowed = {
-				always = yes
-			}
-			
+		MRK_new_army_policy = {
+			allowed = { always = yes }
 			removal_cost = -1
-	
 			modifier = {
 				army_morale_factor = 0.15
 				attrition = -0.15
-				offence = 0.3
 			}
 		}
-	}
-
-	country = { 
-		defensive_tactics = {
-				
-			allowed = {
-				always = yes
-			}
-			
+		MRK_defensive_tactics = {
+			allowed = { always = yes }
 			removal_cost = -1
-	
 			modifier = {
 				army_morale_factor = 0.1
 				army_core_defence_factor = 0.3
