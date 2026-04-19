@@ -849,7 +849,7 @@ focus_tree = {
 
 		completion_reward = {
 			ARZ = { set_state_owner = 455 }
-			add_threat = 
+			add_named_threat = { threat = 1 name = ARZ_threat }
 		}
 	}
 
@@ -1348,7 +1348,7 @@ focus_tree = {
 
 		completion_reward = {
 			183 = { add_resource = { 
-				type = chrominum
+				type = chromium
 				amount = 20
 				}
 			}
