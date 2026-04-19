@@ -1,1 +1,2 @@
-MRK = "common/countries/Quria.txt"
+graphical_culture = middle_eastern_gfx
+graphical_culture_2d = middle_eastern_2d
