@@ -71,18 +71,19 @@ set_research_slots = 6
 		dispersed_industry2 = 1
 	}
 }
+set_politics = {
+ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
 set_popularities = {
 	democratic = 5
 	fascism = 30
 	communism = 30
 	neutrality = 35
 }
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
 create_country_leader = {	
 	name = "Величайший Артём I"
 	picture = "MRK.dds"

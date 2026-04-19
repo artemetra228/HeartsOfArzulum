@@ -72,32 +72,18 @@ set_research_slots = 6
 	}
 }
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 5
-		}
-
-		fascism = {
-			popularity = 30
-		}
-		
-		communism = {
-			popularity = 30
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 35
-		}
-	}
-	
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
+set_popularities = {
+	democratic = 5
+	fascism = 30
+	communism = 30
+	neutrality = 35
+}
 create_country_leader = {	
 	name = "Величайшая Картошка II"
 	picture = "MRK.dds"
